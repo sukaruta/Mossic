@@ -1,0 +1,23 @@
+{
+  "name": "mossic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Marunouchi#2513",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.11.0",
+    "@distube/spotify": "^1.3.2",
+    "@distube/ytdl-core": "^4.11.5",
+    "discord.js": "^14.1.2",
+    "distube": "^4.0.3",
+    "dotenv": "^16.0.1",
+    "humanize-duration": "^3.27.2",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
